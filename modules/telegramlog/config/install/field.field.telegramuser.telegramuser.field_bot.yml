@@ -1,0 +1,25 @@
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.telegramuser.field_bot
+  module:
+    - telegramlog
+id: telegramuser.telegramuser.field_bot
+field_name: field_bot
+entity_type: telegramuser
+bundle: telegramuser
+label: bots
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:bot'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

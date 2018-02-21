@@ -1,0 +1,20 @@
+uuid: be71579b-8c26-4713-b204-a29c0203e9b0
+langcode: ru
+status: true
+dependencies:
+  module:
+    - telegram
+    - telegramlog
+id: telegramuser.field_bot
+field_name: field_bot
+entity_type: telegramuser
+type: entity_reference
+settings:
+  target_type: bot
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+add bot entity entities:
+  title: 'Create new Bot entity entities'
+
+administer bot entity entities:
+  title: 'Administer Bot entity entities'
+  description: 'Allow to access the administration form to configure Bot entity entities.'
+  restrict access: true
+
+delete bot entity entities:
+  title: 'Delete Bot entity entities'
+
+edit bot entity entities:
+  title: 'Edit Bot entity entities'
+
+access bot entity overview:
+  title: 'Access the Bot entity overview page'
+
+view published bot entity entities:
+  title: 'View published Bot entity entities'
+
+view unpublished bot entity entities:
+  title: 'View unpublished Bot entity entities'

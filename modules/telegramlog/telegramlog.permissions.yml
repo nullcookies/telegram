@@ -1,0 +1,41 @@
+add telegram log entities:
+  title: 'Create new Telegram log entities'
+
+administer telegram log entities:
+  title: 'Administer Telegram log entities'
+  description: 'Allow to access the administration form to configure Telegram log entities.'
+  restrict access: true
+
+delete telegram log entities:
+  title: 'Delete Telegram log entities'
+
+edit telegram log entities:
+  title: 'Edit Telegram log entities'
+
+access telegram log overview:
+  title: 'Access the Telegram log overview page'
+
+view published telegram log entities:
+  title: 'View published Telegram log entities'
+
+view unpublished telegram log entities:
+  title: 'View unpublished Telegram log entities'
+add telegram user entities:
+  title: 'Create new Telegram User entities'
+
+administer telegram user entities:
+  title: 'Administer Telegram User entities'
+  description: 'Allow to access the administration form to configure Telegram User entities.'
+  restrict access: true
+
+delete telegram user entities:
+  title: 'Delete Telegram User entities'
+
+edit telegram user entities:
+  title: 'Edit Telegram User entities'
+
+view published telegram user entities:
+  title: 'View published Telegram User entities'
+
+view unpublished telegram user entities:
+  title: 'View unpublished Telegram User entities'

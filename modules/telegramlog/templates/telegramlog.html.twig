@@ -1,0 +1,22 @@
+{#
+/**
+ * @file telegramlog.html.twig
+ * Default theme implementation to present Telegram log data.
+ *
+ * This template is used when viewing Telegram log pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_telegramlog()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('telegramlog') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

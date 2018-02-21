@@ -1,0 +1,5 @@
+entity.bot.add_form:
+  route_name: entity.bot.add_form
+  title: 'Add Bot entity'
+  appears_on:
+    - entity.bot.collection

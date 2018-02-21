@@ -1,0 +1,18 @@
+telegram.settings:
+  title: 'Telegram'
+  parent: synapse.page
+  route_name: telegram.settings
+
+# Bot entity menu items definition
+entity.bot.collection:
+  title: 'Telegram Bots'
+  route_name: entity.bot.collection
+  description: 'List Bot entity entities'
+  parent: entity.telegramlog.collection
+  weight: -3
+
+bot.admin.structure.settings:
+  title: Bot entity settings
+  description: 'Configure Bot entity entities'
+  route_name: bot.settings
+  parent: entity.telegramlog.collection

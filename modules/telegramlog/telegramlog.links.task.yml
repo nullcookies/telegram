@@ -1,0 +1,44 @@
+# Telegram log routing definition
+telegramlog.settings_tab:
+  route_name: telegramlog.settings
+  title: 'Settings'
+  base_route: telegramlog.settings
+
+entity.telegramlog.canonical:
+  route_name: entity.telegramlog.canonical
+  base_route: entity.telegramlog.canonical
+  title: 'View'
+
+entity.telegramlog.edit_form:
+  route_name: entity.telegramlog.edit_form
+  base_route: entity.telegramlog.canonical
+  title: 'Edit'
+
+entity.telegramlog.delete_form:
+  route_name:  entity.telegramlog.delete_form
+  base_route:  entity.telegramlog.canonical
+  title: Delete
+  weight: 10
+
+# Telegram User routing definition
+telegramuser.settings_tab:
+  route_name: telegramuser.settings
+  title: 'Settings'
+  base_route: telegramuser.settings
+
+entity.telegramuser.canonical:
+  route_name: entity.telegramuser.canonical
+  base_route: entity.telegramuser.canonical
+  title: 'View'
+
+entity.telegramuser.edit_form:
+  route_name: entity.telegramuser.edit_form
+  base_route: entity.telegramuser.canonical
+  title: 'Edit'
+
+entity.telegramuser.delete_form:
+  route_name:  entity.telegramuser.delete_form
+  base_route:  entity.telegramuser.canonical
+  title: Delete
+  weight: 10
+

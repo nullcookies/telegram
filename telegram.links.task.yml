@@ -1,0 +1,22 @@
+# Bot entity routing definition
+bot.settings_tab:
+  route_name: bot.settings
+  title: 'Settings'
+  base_route: bot.settings
+
+entity.bot.canonical:
+  route_name: entity.bot.canonical
+  base_route: entity.bot.canonical
+  title: 'View'
+
+entity.bot.edit_form:
+  route_name: entity.bot.edit_form
+  base_route: entity.bot.canonical
+  title: 'Edit'
+
+entity.bot.delete_form:
+  route_name:  entity.bot.delete_form
+  base_route:  entity.bot.canonical
+  title: Delete
+  weight: 10
+

@@ -1,0 +1,21 @@
+telegram.json:
+  path: 'telegram/v1/{bid}/json'
+  defaults:
+    _controller: '\Drupal\telegram\Controller\PageBotApi::json'
+  requirements:
+    _permission: 'access content'
+
+telegram.debug:
+  path: 'telegram/debug'
+  defaults:
+    _controller: '\Drupal\telegram\Controller\PageController::debug'
+  requirements:
+    _permission: 'administer site configuration'
+
+telegram.settings:
+  path: '/admin/config/synapse/telegram'
+  defaults:
+    _form: '\Drupal\telegram\Form\Settings'
+    _title: 'Telegram Helper'
+  requirements:
+    _permission: 'administer nodes'

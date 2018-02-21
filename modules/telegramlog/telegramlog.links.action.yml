@@ -1,0 +1,10 @@
+entity.telegramlog.add_form:
+  route_name: entity.telegramlog.add_form
+  title: 'Add Telegram log'
+  appears_on:
+    - entity.telegramlog.collection
+entity.telegramuser.add_form:
+  route_name: entity.telegramuser.add_form
+  title: 'Add Telegram User'
+  appears_on:
+    - entity.telegramuser.collection

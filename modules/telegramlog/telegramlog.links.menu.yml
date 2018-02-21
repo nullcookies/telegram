@@ -1,0 +1,28 @@
+
+# Telegram log menu items definition
+entity.telegramlog.collection:
+  title: 'Telegram log list'
+  route_name: entity.telegramlog.collection
+  description: 'List Telegram log entities'
+  parent: system.admin_structure
+  weight: 100
+
+telegramlog.admin.structure.settings:
+  title: Telegram log settings
+  description: 'Configure Telegram log entities'
+  route_name: telegramlog.settings
+  parent: entity.telegramlog.collection
+
+# Telegram User menu items definition
+entity.telegramuser.collection:
+  title: 'Telegram User list'
+  route_name: entity.telegramuser.collection
+  description: 'List Telegram User entities'
+  parent: entity.telegramlog.collection
+  weight: -5
+
+telegramuser.admin.structure.settings:
+  title: 'Telegram User settings'
+  description: 'Configure Telegram User entities'
+  route_name: telegramuser.settings
+  parent: entity.telegramlog.collection

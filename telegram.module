@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains form telegram.module.
+ */
+
+/**
+ * Node_visitor_entity_view.
+ */
+function telegram_entity_view(array &$build, $entity, $display, $view_mode) {
+  if (method_exists($entity, 'bundle') && $entity->bundle() == 'bot') {
+    $build['bot'] = \Drupal::formBuilder()->getForm('Drupal\telegram\Form\BotForm', $entity);
+  }
+}
