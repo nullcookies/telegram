@@ -50,7 +50,7 @@ class PageBotApi extends ControllerBase {
     catch (\Exception $e) {
       \Drupal::logger('telegram')->error(($e->getMessage()));
     }
-    $json = json_encode($message, JSON_UNESCAPED_UNICODE);
+    $json = Json::encode($message, JSON_UNESCAPED_UNICODE);
     $response = new Response($json);
     $response->headers->set('Content-Type', 'application/json');
     return $response;

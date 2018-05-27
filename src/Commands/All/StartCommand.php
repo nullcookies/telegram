@@ -43,7 +43,7 @@ class StartCommand extends SystemCommand
     /**
      * @var bool
      */
-    protected $private_only = true;
+    // protected $private_only = true;
 
     /**
      * Command execute method
